@@ -1,0 +1,59 @@
+/* #2773E6  blu */
+/* #A419DD viola */
+* {
+    font-family: 'Lexend', sans-serif;
+}
+
+body {
+    text-align: center;
+    background-color: grey;
+}
+
+#container {
+    width: 1000px;
+    background-color: #2773E6;
+    margin:0 auto;
+    padding: 1em;
+}
+
+button{
+    background-color:#A419DD ;
+    padding: 1em 2em;
+    border: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 5px;
+}
+
+button:hover{
+    background-color:#16486C ;
+}
+
+.casella {
+    display: inline-block;
+    margin: 2%;
+    background-color: #A419DD;
+    border-radius: 5px;
+    width: 120px;
+    height: 120px;
+    font-size: 70px;
+}
+
+#timer {
+    font-size: 20px;
+}
+
+.icona {
+    opacity: 0;
+    cursor: pointer;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.scoperto {
+    opacity: 1
+}
+
+.giusti {
+    opacity: 1;
+}
